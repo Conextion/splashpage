@@ -24,7 +24,7 @@ export const IntroDescriptionSD = styled.div`
   font: 24px/41px 'Founders Grotesk', sans-serif;
 
   ${breakpoints.down('xs')} {
-    max-width: 285px;
+    max-width: 350px;
     margin-bottom: 18px;
     font-family: 'Lato', 'Helvetica Neue', Arial, Helvetica, sans-serif;
     font-size: 16px;
@@ -44,7 +44,7 @@ export const InlineLinkSD = styled.a`
     text-decoration: underline;
   }
   ${breakpoints.down('xs')} {
-    max-width: 285px;
+    max-width: 350px;
     margin-bottom: 18px;
     font-family: 'Lato', 'Helvetica Neue', Arial, Helvetica, sans-serif;
     font-size: 16px;
@@ -64,7 +64,7 @@ export const IntroLinkSD = styled.a`
     text-decoration: underline;
   }
   ${breakpoints.down('xs')} {
-    max-width: 285px;
+    max-width: 350px;
     margin-bottom: 18px;
     font-family: 'Lato', 'Helvetica Neue', Arial, Helvetica, sans-serif;
     font-size: 16px;

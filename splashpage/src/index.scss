@@ -210,3 +210,117 @@ a, button, div, input, p, span {
 //       font-size: 16px;
 //     }
 // }
+
+.sendgrid-subscription-widget {
+  margin-top: 30px;
+  min-width: 300px;
+  width: 80%;
+  @media (max-width:768px) {
+    width: initial;
+  }
+  position: relative;
+  form {
+  display: flex;
+  align-items: flex-end;
+  flex-flow: row wrap;
+  }
+  p {
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: #6a7c7b;
+    line-height: 145%;
+    font-style: italic;
+  }
+  .leftWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    flex: 0;
+    margin-right: 20px;
+    label {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      width: 100%;
+      margin: 0;
+      
+      .inputWrapper {
+        font-size: 16px;
+        line-height: 19px;
+        position: relative;
+        border-radius: 4px;
+        width: 100%;
+        display: flex;
+        height: 40px;
+        input {
+          font-family: Lato;
+          font-weight: 500;
+          font-size: 16px;
+          font-style: normal;
+          color: #00211f;
+          line-height: 146%;
+          border: none;
+          outline: none!important;
+          border-radius: 4px;
+          box-sizing: border-box;
+          padding: 8px 11px;
+          &:focus {
+            border: 1.5px solid #00211f;
+          }
+        }
+      }
+    }
+  }
+  
+	.sg-submit-btn {
+    flex: 0 0 auto;
+    padding: 11px 31px;
+    margin: 0px;
+    border-radius: 2px;
+    border: none;
+    background: rgb(255, 127, 122);
+    color: rgb(255, 255, 255);
+    font: bold 18px / 18px Lato, "Helvetica Neue", Arial, Helvetica, sans-serif;
+    box-shadow: inset 0 0 0 1px transparent, inset 0 0 0 0 rgba(34,36,38,.15);
+    cursor: pointer;
+    display: inline-block;
+    min-height: 1em;
+    text-align: center;
+    text-decoration: none;
+    transition: opacity .1s ease,background-color .1s ease,color .1s ease,box-shadow .1s ease,background .1s ease;
+    outline: none!important;
+    outline-style: none!important;
+	}
+	.response {
+		display: none;
+		font-family: sans-serif;
+		font-size: .8em;
+	}
+	.success {
+		color: green;
+	}
+	.error {
+		color: #3097d1;
+	}
+	.sg-consent-text {
+		a {
+			color: #3097d1;
+		}
+		font-size: .9em;
+		label {
+			font-weight: 400;
+		}
+	}
+	.required {
+		outline: 1px solid #f00;
+	}
+	.sg_custom {
+		margin-left: 5px;
+	}
+	.checkbox_label {
+		padding-left: 3px;
+	}
+}
+
+
